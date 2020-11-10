@@ -36,7 +36,7 @@ function deleteCheck(e) {
             todo.remove();
         });
     }
-
+    //Just another comment
     //in case of checked button clicked
     if (item.classList[0] === 'completed-btn') {
         const todo = item.parentElement;
