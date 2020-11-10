@@ -27,6 +27,7 @@ function addTodo(event) {
 
 function deleteCheck(e) {
     const item = e.target;
+    //in case of delete button clicked
     if (item.classList[0] === 'deleted-btn') {
         const todo = item.parentElement;
         todo.classList.add('fall');
@@ -35,6 +36,7 @@ function deleteCheck(e) {
         });
     }
 
+    //in case of checked button clicked
     if (item.classList[0] === 'completed-btn') {
         const todo = item.parentElement;
         todo.classList.toggle('completed');
