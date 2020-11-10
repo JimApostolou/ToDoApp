@@ -37,7 +37,7 @@ function deleteCheck(e) {
         });
     }
 
-    //in case of checked` button clicked
+    //in case of checked button clicked
     if (item.classList[0] === 'completed-btn') {
         const todo = item.parentElement;
         todo.classList.toggle('completed');
